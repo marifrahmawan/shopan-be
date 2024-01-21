@@ -21,10 +21,6 @@ const productSchema = new Schema(
       required: true,
     },
     productPicture: [String],
-    productBrand: {
-      type: String,
-      required: true,
-    },
     productAvailable: {
       type: Boolean,
       required: true,
